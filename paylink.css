@@ -28,8 +28,8 @@ form{padding:0;margin:0;}
 
 .pocline.total .poctitle{text-align:right;}
 
-.paybutton{cursor:pointer;display:block;border:none;box-sizing:border-box;border-radius:5px;padding:10px;width:100%;font-weight:bold;background:#0B4972;color:#ffffff;transition:background 250ms;}
-.paybutton:hover{background:#266B96}
+.paybutton{cursor:pointer;display:block;border:none;box-sizing:border-box;border-radius:5px;padding:10px;width:100%;font-weight:bold;background:#21B01D;color:#ffffff;transition:background 250ms;}
+.paybutton:hover{background:#28D723}
 
 .pageerror{padding:20px;padding-top:80px;text-align:center;color:#ab0200;}
 .paymenterror{width:100%;box-sizing:border-box;padding:10px;background:#f0f0f0;color:#ab0200;margin-bottom:20px;}
