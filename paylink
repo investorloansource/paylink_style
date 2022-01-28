@@ -1,0 +1,66 @@
+body{padding:0;margin:0;background:#ffffff;text-align:left;}
+body, td, textarea{font-family:Arial,sans-serif; font-size:15px;}
+form{padding:0;margin:0;}
+
+#headband{background:#0B2437;text-align:left;}
+#headband .logo{height:60px;}
+
+#page{width:980px;margin:0 auto;text-align:left;transition:margin 500ms;padding-bottom:60px;}
+.cwidth{padding:0 15px;}
+.wcwidth{}
+.nwidth{width:80%;margin:0 auto;}
+.clear{clear:both;}
+	
+.col2{float:left;width:48%;margin-right:2%;}
+
+
+.paneltitle{font-size:19px;margin-bottom:20px;}
+.formlabel{font-size:14px;margin-bottom:5px;}
+.inp{width:100%;box-sizing:border-box;margin-bottom:10px;height:28px;line-height:26px;}
+
+.pocline{border-bottom:solid 1px #dedede;padding-bottom:5px;margin-bottom:5px;}
+.pocline.total{border:none;}
+
+.poctitle,.pocamount{float:left;}
+.poctitle{width:68%;margin-right:2%;}
+.pocamount{width:30%;}
+.pocamount{text-align:right;}
+
+.pocline.total .poctitle{text-align:right;}
+
+.paybutton{cursor:pointer;display:block;border:none;box-sizing:border-box;border-radius:5px;padding:10px;width:100%;font-weight:bold;background:#0B4972;color:#ffffff;transition:background 250ms;}
+.paybutton:hover{background:#266B96}
+
+.pageerror{padding:20px;padding-top:80px;text-align:center;color:#ab0200;}
+.paymenterror{width:100%;box-sizing:border-box;padding:10px;background:#f0f0f0;color:#ab0200;margin-bottom:20px;}
+.thankyou{padding:20px;padding-top:80px;text-align:center;}
+
+/* ----------------- */
+@media screen and (min-width:20px){
+	#page{width:100%;}
+	.cwidth{padding:0 20px;margin:0 auto;max-width:940px;}
+	.wcwidth{margin:0 auto;max-width:1180px;}
+}
+
+@media screen and (max-width:940px){
+	#page{margin-left:0;}
+}
+/* ----------------- */
+
+@media screen and (max-width:840px){
+	#paymentsummary{width:54%;margin-right:6%;}
+	#paymentform{width:40%;}	
+}
+
+@media screen and (max-width:640px){
+	#paymentsummary{width:48%;margin-right:4%;}
+	#paymentform{width:48%;}	
+}
+
+@media screen and (max-width:550px){
+	#paymentsummary,#paymentform{float:none;width:auto;margin-left:10%;margin-right:10%;}
+}
+
+@media screen and (max-width:400px){
+	#paymentsummary,#paymentform{margin-left:10px;margin-right:10px;}
+}
